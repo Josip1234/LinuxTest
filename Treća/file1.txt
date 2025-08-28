@@ -1,0 +1,8 @@
+dd - brisanje linije
+x - brisanje znaka gdje se nalazimo
+h,j,k,l - navigacija po dokumentu
+u - undo akcija
+o - novi redak, može i enter
+Razlika izmežu nano i vim -a je u tome što se u vi moraju pamtiti naredbe, dok se u nano editoru ne mora.
+Editori u terminalima su korisni zao što se programeri često moraju spajati na servere i vršiti izmjene na mjestu.
+Vi je korisniji jer ima veće mogućnosti za uređivanje programskog koda.
