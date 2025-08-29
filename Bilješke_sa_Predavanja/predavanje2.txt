@@ -1,0 +1,45 @@
+                                                                 GITHUB 
+gitgnore - stavke koje nisu potrebne
+ako nemate profil na githubu, potrebno ga je napraviti 
+github sigurnosni faktor za korištenje github-a preko linux operacijskog sustava
+kliknuti sljedeće:
+DESNO OD PROFILA > SETTINGS > DEV.SETTINGS>PERSONAL ACCESS TOKEN>TOKENS(CLASSIC)>GENERATE NEW TOKEN>CLASSIC
+identifikacija:
+git config --list -provjera korisnika koje koristi računalo
+git config --global user.name "ime korisnika"
+git config --global user.email "email"
+napravimo ponovno provjeru korisnika sa git config --list
+ls
+cd desktop
+kreirati nekakvu mapu
+git init
+.git je nevidljiva mapa
+brisanjem .git mape mičemo trenutnu vezu prema git/githubu
+mapa predstavlja sustav praćenja promjena u lokalnom repositoriju
+github - udaljena lokacija na koju spremamo kod (udaljeni repositorij)
+provjerimo git status sa git status
+touch - napravimo nekakvu datoteku
+git status
+git add novo.txt
+git add staro.html
+git rm --cached novo.txt
+git status
+git add . (dodaj sve)
+commit - spremanje trenutnih promjena u lokalni repositorij
+git commit -m "Prvo stanje repositorija"
+git log (dovijemo informaciju tko je napravio koji commit)
+git restore novo.txt (vraćanje promjena, ako nam se ne sviđaju)
+git commit -a -prebacuje u nano (očekuje se poruka)
+CTRL+S
+CTRL+X
+git commit -a -m "Iduća linija teksta" -s jednom linijom sprema i commita sve promjene koje smo napravili 
+git remote add origin "link github reposirotija uz nastavak .git"
+git push - guranje promjena na udaljeni repositorij
+git push --set -upstream origin pero
+prijava username:
+password: token koji smo generirali preko githuba
+grane - prebacivanje 
+sa git switch ili git checkout pa ime grane
+switch je novija verzija koja tek dolazi
+git push -u (allias za checkout)
+git branch -d testiranje brisanja grane

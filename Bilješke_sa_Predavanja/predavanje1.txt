@@ -1,0 +1,83 @@
+                                                           Predavanje - bilješke
+Nastavnik: Dinko Šuliček
+Namespace - imenski prostor
+dinko@sulicek@predavaci.algebra.hr
+                                                           Linux ukratko
+Operacijski sustav sličan kao i windows operacijskom sustavu
+Besplatan, open source, jedan od poznatijih distribucija je ubuntu
+Siguran je i radi svuda 
+Windowsi imaju power shell li cmd terminal
+Osnovne naredbe:
+pwd - u kojem direktoriju se nalazimo
+cd - u koji direktorij želimo ući
+primjer cd:docl1
+ls - lista datoteka
+mape i datoteke budu u boji exe u zelenoj
+dir - mape nisu u boji 
+rm - brisanje
+primjer rm jcef_7635.log
+dosta siguran, više verzija ubuntu najpopularnija
+linux služi obično za projekte
+                                                          Datotečni i  Brojevni sustavi
+Pretvorba iz binarnog u heksadekadski - nule ne gledamo, dvoznamenkasti broj zamjenjujemo slovom
+Pretvordba iz binarnog u dekadski 
+1011 0110
+8421 8421
+zbrojimo
+dobijemo 116
+heksadekadski B6(16)
+10-A
+11-B
+Podatke zapisujemo u mape i datoteke koje se nalaze na lokacijama koristeći indeksiranje
+Indeksiranje služi za brži dolazak do podataka
+FAT - oriste ovi uređaji usb
+NTFS - hard diskovi NTFS SSD I HDD
+Da ponovimo, pwd služi za provjeru u kojem direktoriju se nalazimo 
+ls ekvivalent je dir
+cd ulazak u mapu (pripaziti na velika i mala slova)
+tab - samostalno dovršavanje 
+enter - lazimo u mapu
+cd pa razmak .. povratak u prethodni direktorij
+mkdir - kreiranje direktorija (Prva druga treća) paralelno kreiranje više datoteka
+touch - pravimo datoteku
+mv (preimenovanje datoteka, može se koristiti i za premještanje iz jednog foldera u drugi) text.txt tekst.txt
+rm - brisanje datoteka
+rm -r razmak obriši mapu i sve u mapi
+shortcut za tekst (nema) zbog toga postoje naredbe za vraćanje na prethodnu naredbu
+CTRL+X - PASTE
+CTRL+C -COPY
+mv (primjer trebamo maknuti iz trenutne mape datoteku u mapu broj tri) naziv.txt ../Treća/
+KOPIRANJE U TERMINALU 
+DRŽATI SHIFT+CTRL+C
+PASTE SHIFT+CTRL+V
+cd / - KORIJENSKA MAPA
+sudo mkdir test
+prilikom upisa passworda sustav ne prikazuje znakove radi sigurnosti
+cd ~ - vraća u root direktorij korisnika
+ALTGR+1  - kombinacija tipki za dobivanje tilde 
+ls -l ili ll
+drwxrwxr - d - direktorij
+-rw-rw-r-- - datoteka
+chmod g-(minus je oduzimanje dozvola)w POCETNA.HTML
+                                                       VI EDITOR
+Ima dva moda - command mode i editing mode
+korištenjem tipki radi se pisanje i brisanje
+editing mode je samo za pisanje teksta
+dd - brisanje linije
+x - brisanje znaka na mjestu gdje se nalazimo
+navigacija hjkl
+U vi editoru postoji više mogućnosti a uređivanje programskog koda
+u - undo akcija
+o - novi redak
+Razlika između vi editora i nano editora je u tome štou vi editoru se trebaju pamtiti naredbe
+dvotočka wq - izlazak i spremanje
+dvotočka q uskličnik - izlazak bez spremanja
+Editori u terminalu su korisni zbog toga što se programeri trebaju često spojiti na servere i raditi promjene
+                                                       NANO EDITOR
+CTRL + O - SPREMANJE
+CTRL + C - ODUSTAJANJE
+CTRL + X - IZLAZAK IZ DOKUMENTACIJE
+UNDO - ALT+M
+treba zapamtiti da je ^ oznaka za ctrl, slovo M predstavlja alt
+CTRL + W kombinacija tipki služi za pretraživanje
+mogu se mijenjati sve datoteke 
